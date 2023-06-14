@@ -1,0 +1,12 @@
+nltk
+requests
+beautifulsoup4
+tqdm
+pandas
+tabulate
+vaderSentiment
+textblob
+scikit-learn
+matplotlib
+xgboost
+pyLDAvis==2.1.2
