@@ -8,5 +8,4 @@ vaderSentiment
 textblob
 scikit-learn
 matplotlib
-xgboost
 pyLDAvis==2.1.2
