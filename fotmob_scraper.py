@@ -7,7 +7,7 @@ import re
 from tqdm import tqdm
 import csv
 from datetime import datetime, timedelta
-from convertions import convert_date, months
+from conversions import convert_date, months
 from csv_management import write_occurrences_csv
 
 def get_teams(url):
