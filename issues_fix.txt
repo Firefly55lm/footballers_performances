@@ -1,0 +1,11 @@
+Only old versions of the library support scikirlearn models.
+To perform the topic modelling visualization ensure you installed the version of pyLDAvis indicated in requirements.txt.
+
+Run topic_modelling_tweets and wait the error message that brakes the code.
+Click to the last link given by the error message [File "C:\Users\feder\PycharmProjects\footballers_performances\lib\site-packages\pyLDAvis\sklearn.py", line 20, in _get_vocab] and change the function _get_vocab adding "_out" as follows:
+
+def _get_vocab(vectorizer):
+return vectorizer.get_feature_names_out()
+
+Save and run again. You will get a new error. Click again on the last blue patch given.
+Change the code from head(R).drop('saliency', 1) to head(R).drop('saliency', axis = 1).
