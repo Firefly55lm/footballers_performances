@@ -7,7 +7,7 @@ import pandas as pd
 import re
 from tqdm import tqdm
 from csv_management import write_sentiment_csv
-from convertions import convert_tweet_date
+from conversions import convert_tweet_date
 from textblob import TextBlob
 
 headers = {"User-Agent" : "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, Like Gecko) "
