@@ -2,7 +2,7 @@ import csv
 import pandas as pd
 import warnings
 from tabulate import tabulate
-from convertions import emotion, char_rating
+from conversions import emotion, char_rating
 
 def write_occurrences_csv(league_name, occurrences):
     """
