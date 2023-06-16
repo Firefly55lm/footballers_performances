@@ -1,4 +1,4 @@
-Only old versions of the library support scikirlearn models.
+Only old versions of the library support scikitlearn models.
 To perform the topic modelling visualization ensure you installed the version of pyLDAvis indicated in requirements.txt.
 
 Run topic_modelling_tweets and wait the error message that brakes the code.
@@ -7,5 +7,5 @@ Click to the last link given by the error message [File "C:\Users\feder\PycharmP
 def _get_vocab(vectorizer):
 return vectorizer.get_feature_names_out()
 
-Save and run again. You will get a new error. Click again on the last blue patch given.
+Save and run again. You will get a new error. Click again on the last blue path given.
 Change the code from head(R).drop('saliency', 1) to head(R).drop('saliency', axis = 1).
